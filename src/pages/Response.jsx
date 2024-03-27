@@ -9,11 +9,11 @@ const Response = () => {
   };
 
   return (
-    <>
+    <div className='App'>
       <h4>Your response has been saved</h4>
       <div>Thank you for answering our questions</div>
       <button onClick={handleLogout}>Logout</button>
-    </>
+    </div>
   );
 };
 
