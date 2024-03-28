@@ -5,7 +5,7 @@ const Admin = () => {
   const navigate = useNavigate();
   const handleLogout = () => {
     // Perform logout actions here (e.g., clear session, local storage, etc.)
-    // Then navigate the admin to the logout page or the login page
+   
     navigate('/');
   };
   return (
