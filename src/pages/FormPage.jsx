@@ -11,7 +11,7 @@ const FormPage = () => {
 
   return (
     <>
-      <div className="container">
+     
         <header>
           <h1 id="title">Psychometric Test</h1>
           <p id="description">Thank you for taking the time to answer our questions</p>
@@ -82,7 +82,7 @@ const FormPage = () => {
             <button type='submit' id="submit">Submit</button>
           </form>
         </main>
-      </div>
+
     </>
   );
 };
